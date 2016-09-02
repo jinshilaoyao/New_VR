@@ -22,6 +22,7 @@
 		EB1B213E1D79649800A9C10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1B21411D79649800A9C10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB1B21431D79649800A9C10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1B21491D7969E800A9C10F /* 360VR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "360VR-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				EB1B213E1D79649800A9C10F /* Assets.xcassets */,
 				EB1B21401D79649800A9C10F /* LaunchScreen.storyboard */,
 				EB1B21431D79649800A9C10F /* Info.plist */,
+				EB1B21491D7969E800A9C10F /* 360VR-Bridging-Header.h */,
 			);
 			path = 360VR;
 			sourceTree = "<group>";
@@ -255,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-swift.20160422.learn.-60VR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "360VR/360VR-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -266,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS-swift.20160422.learn.-60VR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "360VR/360VR-Bridging-Header.h";
 			};
 			name = Release;
 		};
